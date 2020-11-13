@@ -1,0 +1,68 @@
+
+import scrapy
+from scrapy.item import Item, Field
+
+class TestCricketBatItem(scrapy.Item):
+    
+    player = scrapy.Field()
+    battingstyle = scrapy.Field()
+    matches = scrapy.Field()
+    innings = scrapy.Field()
+    NO = scrapy.Field()
+    runs = scrapy.Field()
+    highestScore = scrapy.Field()
+    average = scrapy.Field()
+    BF = scrapy.Field()
+    strikeRate = scrapy.Field()
+    hundreds = scrapy.Field()
+    fifties = scrapy.Field()
+    fours = scrapy.Field()
+    sixes = scrapy.Field()
+    
+class TestCricketBowlItem(scrapy.Item):
+    player = scrapy.Field()
+    bowlingstyle = scrapy.Field()
+    matches = scrapy.Field()
+    innings = scrapy.Field()
+    NO = scrapy.Field()
+    runs = scrapy.Field()
+    highestScore = scrapy.Field()
+    average = scrapy.Field()
+    BF = scrapy.Field()
+    strikeRate = scrapy.Field()
+    hundreds = scrapy.Field()
+    fifties = scrapy.Field()
+    fours = scrapy.Field()
+    sixes = scrapy.Field()
+    
+class ODICricketBatItem(scrapy.Item):
+    player = scrapy.Field()
+    battingstyle = scrapy.Field()
+    matches = scrapy.Field()
+    innings = scrapy.Field()
+    NO = scrapy.Field()
+    runs = scrapy.Field()
+    highestScore = scrapy.Field()
+    average = scrapy.Field()
+    BF = scrapy.Field()
+    strikeRate = scrapy.Field()
+    hundreds = scrapy.Field()
+    fifties = scrapy.Field()
+    fours = scrapy.Field()
+    sixes = scrapy.Field()
+    
+class ODICricketBowlItem(scrapy.Item):
+    player = scrapy.Field()
+    bowlingstyle = scrapy.Field()
+    matches = scrapy.Field()
+    innings = scrapy.Field()
+    NO = scrapy.Field()
+    runs = scrapy.Field()
+    highestScore = scrapy.Field()
+    average = scrapy.Field()
+    BF = scrapy.Field()
+    strikeRate = scrapy.Field()
+    hundreds = scrapy.Field()
+    fifties = scrapy.Field()
+    fours = scrapy.Field()
+    sixes = scrapy.Field()
