@@ -1,0 +1,82 @@
+/*new table*/
+
+table.tablenew {
+	border: 4px solid #555555;
+	background-color: #555555;
+	table-layout: auto;
+  width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+	align-content:center;
+  }
+  table.tablenew td, table.tablenew th {
+	border: 1px solid #555555;
+	padding: 5px 10px;
+  }
+  table.tablenew tbody td {
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+  }
+  table.tablenew td:nth-child(even) {
+	background: #398AA4;
+  }
+  table.tablenew thead {
+	background: #398AA4;
+	border-bottom: 10px solid #398AA4;
+  }
+  table.tablenew thead th {
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	border-left: 2px solid #398AA4;
+  }
+  table.tablenew thead th:first-child {
+	border-left: none;
+  }
+  
+  table.tablenew tfoot td {
+	font-size: 20px;
+  }
+  table.tablenew tfoot .links {
+	text-align: right;
+  }
+  table.tablenew tfoot .links a{
+	display: inline-block;
+	background: #FFFFFF;
+	color: #398AA4;
+	padding: 2px 8px;
+	border-radius: 5px;
+	}
+	table.tablenew caption{
+	text-align: center;
+	font-size: 25px;
+	color: purple
+
+	}
+/*new table*/
+
+/*ODI*/
+.ODI{
+
+background-color: grey;
+
+
+}
+
+/*Test*/
+.Test{
+
+	background-color: rgb(212, 211, 211);
+	
+	
+	}
+	/*T20*/
+.T20{
+
+	background-color: grey;
+	
+	
+	}
+
